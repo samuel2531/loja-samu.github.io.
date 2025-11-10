@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><Loja-produtos></title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Stripe.js (necessário para o botão de cartão via Stripe) -->
+    <script src="https://js.stripe.com/v3/"></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="logo">loja samu
+            </h1>
+            <nav class="nav">
+                <a href="#produto">Produto</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero container" id="produto">
+            <div class="product-card">
+                <figure class="product-image">
+                    <img src="img/OIP.jpg" alt="Imagem do produto" style="max-width: 100%; height: auto;">
+                </figure>
+
+                <div class="product-info">
+                    <h2 class="product-title">Luminária LED Premium</h2>
+                    <p class="product-desc">Design moderno, luz ajustável e consumo baixo. Perfeita para mesas de trabalho, leitura e decoração.</p>
+                    <ul class="product-features">
+                        <li>Brilho ajustável (3 níveis)</li>
+                        <li>Consumo 7W</li>
+                        <li>Garantia: 2 anos</li>
+                    </ul>
+
+                    <div class="product-buy">
+                        <div class="price">R$ 129,90</div>
+                        <!-- Botão para checkout com Stripe (cartão) -->
+                        <button id="stripeBtn" class="btn" style="margin-left:0.5rem;">Pagar com cartão</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about container" id="sobre">
+            <h3>Sobre o produto</h3>
+            <p>Esta luminária combina eficiência energética com um acabamento premium. Ideal para quem busca funcionalidade e estilo.</p>
+        </section>
+
+        <section class="contact container" id="contato">
+            <h3>Fale conosco</h3>
+            <p>Tem uma dúvida? Envie um e-mail para <a href="mailto:contato@minhaloja.com">freire0p1@gmail.com</a>.</p>
+        </section>
+    </main>
+
+    <!-- Modal de compra simples -->
+    
+             
+</body>
+</html>
