@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Pagamento confirmado</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container" style="padding:2rem;text-align:center;">
+    <h1>Pagamento recebido</h1>
+    <p id="msg">Obrigado pela compra! Se desejar, você pode fechar esta janela.</p>
+    <p id="session"></p>
+    <a href="aaa.html" class="btn">Voltar para a loja</a>
+  </div>
+
+  <script>
+    // Mostra o session_id (opcional)
+    const params = new URLSearchParams(location.search);
+    const session = params.get('session_id');
+    if(session){
+      document.getElementById('session').textContent = 'Session ID: ' + session;
+    }
+  </script>
+</body>
+</html>

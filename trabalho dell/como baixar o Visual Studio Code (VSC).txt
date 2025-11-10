@@ -1,0 +1,6 @@
+                        ola hoje irei lhe mostrar como baixar o Visual Studio Code (VSC) 
+ 
+primeiramente voçe deve entrar no navegador de sua preferençia e preucurar o sitr chamado:visual studio code
+depoisde abrir ja apareçera as opçoes de download basta clicar depois va na aba downloads para achar essa aba basta
+clicar nos tres pontinhos no canto superior direitoou apenas aperte (ctrl j) depois basta a perta para instalar
+e apareçera uma aba para o download basta clicar em proçegir e istara pronto´para uso seu (VSC) 
